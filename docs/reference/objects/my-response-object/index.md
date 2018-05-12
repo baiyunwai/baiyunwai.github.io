@@ -1,11 +1,13 @@
-# My.Request 对象
+# My.Response 对象
 
-获取所请求页面的 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httprequest'>HttpRequest</a> 对象。
+获取与 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.page'>Page</a>关联的 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse
+>HttpResponse</a>对象。此对象允许您向客户端发送 HTTP 响应数据，并包含有关该响应的信息。
 
 
 # 备注
-**My.Request** 对象包含有关当前 HTTP 请求的信息。
-**My.Request** 对象仅适用于 ASP.NET 应用程序。
+
+**My.Response** 对象包含与页面关联的当前 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse'>HttpResponse</a> 对象。
+**My.Response** 对象仅适用于 ASP.NET 应用程序。
 
 
 # 示例
@@ -35,5 +37,5 @@
 
 # 请参阅
 
-<a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httprequest'>HttpRequest</a>
-<a href='https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/objects/my-response-object'>My.Response 对象</a>
+<a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse'>HttpResponse</a>
+<a href='https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/objects/my-request-object'>My.Request 对象</a>
