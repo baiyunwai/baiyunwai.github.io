@@ -6,9 +6,9 @@ layout: default
 
 # 备注
 
-**My.Forms**对象在当前项目中提供每个窗体的实例。属性的名称与属性访问的窗体的名称相同。
+**My.Forms** 对象在当前项目中提供每个窗体的实例。属性的名称与属性访问的窗体的名称相同。
 
-您可以使用窗体的名称访问由 My.Forms 对象提供的窗体，而不需要任何限制。由于属性名称与窗体的类型名称相同，因此可以像访问默认实例一样访问窗体。例如，My.Forms.Form1.Show 等同于Form1.Show。
+您可以使用窗体的名称访问由 **My.Forms** 对象提供的窗体，而不需要任何限制。由于属性名称与窗体的类型名称相同，因此可以像访问默认实例一样访问窗体。例如，My.Forms.Form1.Show 等同于Form1.Show。
 
 My.Forms对象仅公开与当前项目关联的窗体。它不提供对引用DLL中声明的窗体的访问。若要访问DLL提供的窗体，必须使用窗体的限定名(以 DllName.FormName 形式编写)。
 
@@ -21,6 +21,7 @@ My.Forms对象仅公开与当前项目关联的窗体。它不提供对引用DLL
 My.Forms 对象的每个属性都提供对当前项目中窗体实例的访问。属性的名称与属性访问的窗体的名称相同，属性类型与窗体的类型相同。
 
 >注意
+>
 >如果存在名称冲突，则访问窗体的属性名为RootNamespaceNamespace\FormName。例如，考虑两个名为 Form1 的表单。如果其中一个窗体位于根命名空间 WindowsApplication1 中，并且在名称空间 Namespace1 中，则可以通过 My.Forms.WindowsApplication1_Namespace1_Form1 访问该表单。 
 
 ### Header 3
