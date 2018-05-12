@@ -46,16 +46,6 @@ End Sub
 此代码仅在 Windows 应用程序项目中工作。
 
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-
 # 要求
 ### 项目类型的可用性
 
