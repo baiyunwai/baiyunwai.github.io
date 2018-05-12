@@ -2,9 +2,9 @@
 
 - 参考
   - 对象
-    - <a href='https://github.com/baiyunwai/baiyunwai.github.io/blob/master/docs/reference/objects/my-forms-object/index.md'>My.Forms 对象</a>
-    - <a href='https://github.com/baiyunwai/baiyunwai.github.io/blob/master/docs/reference/objects/my-request-object/index.md'>My.Request 对象</a>
-    - <a href='https://github.com/baiyunwai/baiyunwai.github.io/blob/master/docs/reference/objects/my-response-object'>My.Response 对象</a>
+    - <a href='baiyunwai.github.io/docs/reference/objects/my-forms-object/index.md'>My.Forms 对象</a>
+    - <a href='baiyunwai.github.io/docs/reference/objects/my-request-object/index.md'>My.Request 对象</a>
+    - <a href='baiyunwai.github.io/docs/reference/objects/my-response-object/index.md'></a>My.Response 对象
 
 
 ### Small image
