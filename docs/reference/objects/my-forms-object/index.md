@@ -17,8 +17,7 @@
 # 属性
 **My.Forms** 对象的每个属性都提供对当前项目中窗体实例的访问。属性的名称与属性访问的窗体的名称相同，属性类型与窗体的类型相同。
 
->注意
->
+>注意<br/>
 >如果存在名称冲突，则访问窗体的属性名为RootNamespaceNamespace\FormName。例如，考虑两个名为 **Form1** 的表单。如果其中一个窗体位于根命名空间 **WindowsApplication1** 中，并且在名称空间 **Namespace1** 中，则可以通过 **My.Forms.WindowsApplication1_Namespace1_Form1** 访问该表单。 
 
 **My.Forms** 对象提供对启动时创建的应用程序主窗体实例的访问。对于其他形式，**My.Forms** 对象在访问和存储该窗体时会创建一个新的实例。随后尝试访问该属性将返回该窗体的那个实例。
@@ -27,7 +26,8 @@
 	
 您可以使用 **Is** 或 **IsNot** 运算符来测试 **My.Forms** 对象的属性是否存储有窗体的实例。您可以使用这些运算符来检查属性的值是否为 **Nothing**。
 
->注意\n
+>注意  
+
 >通常，**Is** 或 **IsNot** 运算符必须读取属性的值才能执行比较。 但是，如果该属性当前存储为 **Nothing**，则该属性将创建该窗体的一个新实例，然后返回该实例。但是，VisualBasic编译器以不同方式处理 **My.Forms** 对象的属性，并允许 **Is** 或 **IsNot** 运算符在不更改其值的情况下检查该属性的状态。
 
 
@@ -60,7 +60,8 @@ End Sub
 | 网站           | No |
 
 
-#请参阅
+# 请参阅
+
 <a href='https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.applicationservices.windowsformsapplicationbase.openforms'>OpenForms</a>
 
 Form
