@@ -1,6 +1,4 @@
----
-layout: default
----
+# My.Forms 对象
 
 提供属性，用于访问当前项目中声明的每个Windows窗体的实例。
 
@@ -21,7 +19,6 @@ My.Forms对象仅公开与当前项目关联的窗体。它不提供对引用DLL
 My.Forms 对象的每个属性都提供对当前项目中窗体实例的访问。属性的名称与属性访问的窗体的名称相同，属性类型与窗体的类型相同。
 
 >注意
->
 >如果存在名称冲突，则访问窗体的属性名为RootNamespaceNamespace\FormName。例如，考虑两个名为 Form1 的表单。如果其中一个窗体位于根命名空间 WindowsApplication1 中，并且在名称空间 Namespace1 中，则可以通过 My.Forms.WindowsApplication1_Namespace1_Form1 访问该表单。 
 
 ### Header 3
