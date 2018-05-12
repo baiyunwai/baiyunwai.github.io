@@ -1,7 +1,7 @@
 # My.Response 对象
 
-获取与 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.page'>Page</a>关联的 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse
->HttpResponse</a>对象。此对象允许您向客户端发送 HTTP 响应数据，并包含有关该响应的信息。
+获取与 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.page'>Page</a> 关联的 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse'
+>HttpResponse</a> 对象。此对象允许您向客户端发送 HTTP 响应数据，并包含有关该响应的信息。
 
 
 # 备注
@@ -38,4 +38,5 @@
 # 请参阅
 
 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse'>HttpResponse</a>
+
 <a href='https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/objects/my-request-object'>My.Request 对象</a>
