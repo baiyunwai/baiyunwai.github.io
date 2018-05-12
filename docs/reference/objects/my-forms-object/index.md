@@ -22,7 +22,7 @@
 
 **My.Forms** 对象提供对启动时创建的应用程序主窗体实例的访问。对于其他形式，**My.Forms** 对象在访问和存储该窗体时会创建一个新的实例。随后尝试访问该属性将返回该窗体的那个实例。
 
-您可以通过将 **Nothing** 分配给该窗体的属性来处理此窗体。属性设置器调用窗体的 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.close'>Close</a> 方法，然后将 **Nothing** 分配给存储的值。如果将除  **Nothing** 以外的任何值分配给该属性，setter将抛出一个 <a href='#'>ArgumentException</a>异常。
+您可以通过将 **Nothing** 分配给该窗体的属性来处理此窗体。属性设置器调用窗体的 <a href='https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.close'>Close</a> 方法，然后将 **Nothing** 分配给存储的值。如果将除  **Nothing** 以外的任何值分配给该属性，setter将抛出一个 <a href='#'>ArgumentException</a> 异常。
 	
 您可以使用 **Is** 或 **IsNot** 运算符来测试 **My.Forms** 对象的属性是否存储有窗体的实例。您可以使用这些运算符来检查属性的值是否为 **Nothing**。
 
@@ -44,6 +44,16 @@ End Sub
 要使此示例工作，项目必须有一个名为 **SidebarMenu** 的窗体。
 
 此代码仅在 Windows 应用程序项目中工作。
+
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
 
 # 要求
