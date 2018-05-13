@@ -1,32 +1,4 @@
-  ------------------------------------ ------------------------------------
-  本文由机器翻译。若要查看英语原文，请勾选“英语”复选框。 翻译
-                                       英语
-  也可将鼠标指针移到文本上，在弹出窗口中显示英语原文。
-  ------------------------------------ ------------------------------------
-
-本文档已存档，并且将不进行维护。
-
-**.NET Framework (current version)**
-
-[其他版本](javascript:void(0))
-
-![](https://i-msdn.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=636582183381192118)
-
--   [](javascript:void(0) "本文档已存档，并且将不进行维护。") [Visual
-    Studio 2010](/zh-cn/library/system.object(v=vs.100).aspx)
--   [](javascript:void(0) "本文档已存档，并且将不进行维护。") [.NET
-    Framework 4](/zh-cn/library/system.object(v=vs.100).aspx)
--   [Silverlight](/zh-cn/library/system.object(v=vs.95).aspx)
--   [](javascript:void(0) "本文档已存档，并且将不进行维护。") [Visual
-    Studio 2008](/zh-cn/library/system.object(v=vs.90).aspx)
--   [](javascript:void(0) "本文档已存档，并且将不进行维护。") [.NET
-    Framework 3.5](/zh-cn/library/system.object(v=vs.90).aspx)
--   [](javascript:void(0) "本文档已存档，并且将不进行维护。") [.NET
-    Framework 3.0](/zh-cn/library/system.object(v=vs.85).aspx)
--   [](javascript:void(0) "本文档已存档，并且将不进行维护。") [.NET
-    Framework 2.0](/zh-cn/library/system.object(v=vs.80).aspx)
-
- 
+# Object 类
 
 支持 .NET Framework 类层次结构中的所有类，并为派生类提供低级别服务。
 这是 .NET Framework 中所有类的最终基类；它是类型层次结构的根。
@@ -36,50 +8,35 @@ Source](http://referencesource.microsoft.com/#mscorlib/system/object.cs#d9262cee
 
 **命名空间:**  
 [System](https://msdn.microsoft.com/zh-cn/library/system(v=vs.110).aspx)
-\
- **程序集:** mscorlib（位于 mscorlib.dll） \
- \
 
- {.LW_CollapsibleArea_TitleDiv}
+ **程序集:** mscorlib（位于 mscorlib.dll）
 
-继承层次结构
 
-[](/zh-cn/library/system.object(v=vs.110).aspx?cs-save-lang=1&cs-lang=vb#Anchor_0 "右键单击以复制并共享此部分的链接")
 
-* * * * *
+## 继承层次结构
 
-System .Object \
- *所有类、结构、枚举和委托。* \
+- System .Object
+  - 所有类、结构、枚举和委托。
 
-\
 
- {.LW_CollapsibleArea_TitleDiv}
+## 语法
 
-语法
+```vb
+<SerializableAttribute>
+<ClassInterfaceAttribute(ClassInterfaceType.AutoDual)>
+<ComVisibleAttribute(True)>
+Public Class Object
+```
 
-[](/zh-cn/library/system.object(v=vs.110).aspx?cs-save-lang=1&cs-lang=vb#Anchor_1 "右键单击以复制并共享此部分的链接")
+```c#
+[SerializableAttribute]
+[ClassInterfaceAttribute(ClassInterfaceType.AutoDual)]
+[ComVisibleAttribute(true)]
+public class Object
+```
 
-* * * * *
 
-[C\#](https://msdn.microsoft.com/zh-cn/library/system.object(v=vs.110).aspx?cs-save-lang=1&cs-lang=csharp#code-snippet-1)
-
-[C++](https://msdn.microsoft.com/zh-cn/library/system.object(v=vs.110).aspx?cs-save-lang=1&cs-lang=cpp#code-snippet-1)
-
-[F\#](https://msdn.microsoft.com/zh-cn/library/system.object(v=vs.110).aspx?cs-save-lang=1&cs-lang=fsharp#code-snippet-1)
-
-VB
-
-[复制](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_aebaec1e-6076-400b-8487-359dc34e31a2'); "复制到剪贴板。")
-
-    <SerializableAttribute>
-        <ClassInterfaceAttribute(ClassInterfaceType.AutoDual)>
-        <ComVisibleAttribute(True)>
-        Public Class Object
-        
-
- {.LW_CollapsibleArea_TitleDiv}
-
-构造函数
+## 构造函数
 
 [](/zh-cn/library/system.object(v=vs.110).aspx?cs-save-lang=1&cs-lang=vb#Anchor_2 "右键单击以复制并共享此部分的链接")
 
