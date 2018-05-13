@@ -21,6 +21,7 @@ Source](http://referencesource.microsoft.com/#mscorlib/system/object.cs#d9262cee
 
 ## 语法
 
+VB
 ```vb
 <SerializableAttribute>
 <ClassInterfaceAttribute(ClassInterfaceType.AutoDual)>
@@ -28,6 +29,7 @@ Source](http://referencesource.microsoft.com/#mscorlib/system/object.cs#d9262cee
 Public Class Object
 ```
 
+C#
 ```c#
 [SerializableAttribute]
 [ClassInterfaceAttribute(ClassInterfaceType.AutoDual)]
